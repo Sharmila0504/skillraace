@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Landing Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    ul li a{
+        color:white;
+    }
+    .jumbotron {
+      background-image: url('food.jpg');
+      background-size: 100% 100%;
+      color: #fff;
+      text-align: center;
+      padding: 70px 0;
+      margin-bottom: 0;
+    }
+    .jumbotron button:hover{
+        background-color: bisque;
+        border-radius: 10px;
+    }
+    .menu-item {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .menu-item img {
+      width: 100px;
+      height: 100px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src='restaurent.jpg' class="rounded-circle" width="40px" height="40px"><span style="font-family: cursive;color:#fff">  queen's kitchen</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#abour">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">Menu</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#review">Reviews</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <h1>Welcome to Our Restaurant</h1>
+  <p>Enjoy delicious meals in a cozy atmosphere</p>
+  <button>Order Now</button>
+</div>
+
+<div class="container mt-4">
+  <div id="menu" class="row">
+    <div class="col-md-3 col-sm-6 menu-item">
+      <img src="dish1.jpg" alt="Dish 1" class="img-fluid rounded-circle">
+      <h4>Grilled Steak</h4>
+      <p>Rs.200</p>
+    </div>
+    <div class="col-md-3 col-sm-6 menu-item">
+      <img src="dish2.jpg" alt="Dish 2" class="img-fluid rounded-circle">
+      <h4>Burger</h4>
+      <p>Rs.250</p>
+    </div>
+    <div class="col-md-3 col-sm-6 menu-item">
+      <img src="dish3.jpg" alt="Dish 3" class="img-fluid rounded-circle">
+      <h4>Pizza</h4>
+      <p>Rs.150</p>
+    </div>
+    <div class="col-md-3 col-sm-6 menu-item">
+        <img src="dish4.jpg" alt="Dish 4" class="img-fluid rounded-circle">
+        <h4>veg biryani</h4>
+        <p>Rs.300</p>
+      </div>
+  </div>
+</div>
+
+<footer id="contact">
+  <p>&copy; 2024 Queen's Kitchen. All rights reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
